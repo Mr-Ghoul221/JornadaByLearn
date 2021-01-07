@@ -1,0 +1,14 @@
+notas = [5,6]
+
+quantidade = len(notas)
+
+print('Quantidade de notas', quantidade)
+
+soma = 0
+for nota in notas:
+  soma = soma + nota
+
+print('A soma é', soma)
+
+media = soma / quantidade
+print('A média final é', media)  
